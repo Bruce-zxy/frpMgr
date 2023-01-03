@@ -1,4 +1,4 @@
-FROM java:8
+FROM hub.c.163.com/library/java:8
 VOLUME /tmp
 ADD frp/frp.jar app.jar
 RUN bash -c 'touch /app.jar'
